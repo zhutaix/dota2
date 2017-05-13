@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gamge World</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript" async defer></script>
+</head>
+<body>
+	<div id="header">
+		 <div class="containner">
+		 	<span>dota2</span>
+		 	<p><a href="heroShow.html">今日英雄</a></p>
+
+		 	<ul class="head-nav clearfloat">
+		 		<li class="item-nav"><a id="load-btn" href="#">登陆</a></li>
+		 		<li class="item-nav"><a href="#" title="">注册</a></li>
+		 		<li class="item-nav"><a href="http://taisoulx.me">关于我</a></li>
+		 	</ul>
+		 </div>
+	</div>
+	<!-- /header -->
+	
+	<div id="load">
+		<h2>
+		登陆账号
+		<span class="load-close">×</span>
+		</h2>
+		<form action="index.html" method="get" accept-charset="utf-8">
+			<p class="load-item1">
+				<input type="text" value="用户名" id="username" name="username">
+			</p>
+			<p class="load-item2">
+				<input name="password" type="text" value="输入密码" " id="pwd" />
+			</p>
+			
+			<input type="submit" name="submit" id="load-sub" value="登陆">
+			
+			<div class="load-item3"><input type="checkbox" name=""><span>下次自动登录</span></div>
+			<a class="register" href="#">注册</a>
+		</form>
+	</div>
+	<div id="shade">
+	</div>
+
+	<div id="share">
+		<span class="shareTo">分享</span>
+		<div>
+			<span>分享到</span>
+			<ul>
+				<li>一键分享</li>
+				<li>QQ空间</li>
+				<li>新浪微博</li>
+				<li>微信</li>
+				<li>人人网</li>
+				<li>腾讯微博</li>
+			</ul>
+		</div>
+	</div> 
+	<!-- 分享到 -->
+
+	<div id="wrapper">
+		<ul id="banner-box" class="clearfloat">
+			<li class="item-pic" data-index="1"><img src="images/banner/cm-1.jpg" alt=""></li>
+			<li class="item-pic" data-index="2"><img src="images/banner/haiming-2.jpg" alt=""></li>
+			<li class="item-pic" data-index="3"><img src="images/banner/ta-3.jpg" alt=""></li>
+			<li class="item-pic" data-index="4"><img src="images/banner/heiniao-4.jpg" alt=""></li>
+		</ul>
+
+		<span id="prev" class="btn">
+		<
+		</span>
+		<span id="next" class="btn">
+		>
+		</span>
+
+		<ul id="Btn-b">
+			<li class="item-bt active"></li>
+			<li class="item-bt"></li>
+			<li class="item-bt"></li>
+			<li class="item-bt"></li>
+		</ul>
+	</div><!-- 轮播图 -->
+
+
+	<div id="hero-menu" class="clearfloat containner">
+		<div id="agile" class="item-menu">
+			<span>敏捷英雄</span>
+			<ul class="item-menu-m item-menu-1">
+				<li><img src="images/agile/1.jpg" alt="am">敌法师</li>
+				<li><img src="images/agile/2.jpg" alt="xiaohei">卓尔游侠</li>
+				<li><img src="images/agile/3.jpg" alt="jugg">主宰</li>
+				<li><img src="images/agile/4.jpg" alt="pom">米拉娜</li>
+				<li><img src="images/agile/5.jpg" alt="shuiren">变体精灵</li>
+				<li><img src="images/agile/6.jpg" alt="houzi">幻影长矛手</li>
+				<li><img src="images/agile/7.png" alt="vs">复仇之魂</li>
+				<li><img src="images/agile/8.jpg" alt="sa">力丸</li>
+				<li><img src="images/agile/9.png" alt="huoqiang">狙击手</li>
+				<li><img src="images/agile/10.jpeg" alt="ta">圣堂刺客</li>
+				<li><img src="images/agile/11.png" alt="luna">露娜</li>
+				<li><img src="images/agile/12.jpg" alt="bh">赏金猎人</li>
+				<li><img src="images/agile/13.jpg" alt="paipai">熊战士</li>
+				<li><img src="images/agile/14.png" alt="feiji">矮人直升机</li>
+				<li><img src="images/agile/15.jpg" alt="deluyi">德鲁伊</li>
+				<li><img src="images/agile/16.png" alt="najia">娜迦海妖</li>
+				<li><img src="images/agile/17.png" alt="jumo">巨魔战将</li>
+				<li><img src="images/agile/18.png" alt="huomao">灰烬之灵</li>
+				<li><img src="images/agile/19.jpg" alt="diangou">天穹守望者</li>
+				<li><img src="images/agile/20.jpg" alt="dasheng">齐天大圣</li>
+				<li><img src="images/agile/21.jpg" alt="xuemo">血魔</li>
+				<li><img src="images/agile/22.jpg" alt="sf">影魔</li>
+				<li><img src="images/agile/23.jpg" alt="diangun">剃刀</li>
+				<li><img src="images/agile/24.png" alt="judu">剧毒术士</li>
+				<li><img src="images/agile/25.jpg" alt="xukong">虚空假面</li>
+				<li><img src="images/agile/26.png" alt="pa">幻影刺客</li>
+				<li><img src="images/agile/27.jpg" alt="dulong">冥界亚龙</li>
+				<li><img src="images/agile/28.jpg" alt="">克林克兹</li>
+				<li><img src="images/agile/29.png" alt="zhizhu">育母蜘蛛</li>
+				<li><img src="images/agile/30.jpg" alt="mayi">编织者</li>
+				<li><img src="images/agile/31.jpg" alt="spe">幽鬼</li>
+				<li><img src="images/agile/32.png" alt="na">司夜刺客</li>
+				<li><img src="images/agile/33.png" alt="mippo">米波</li>
+				<li><img src="images/agile/34.png" alt="slark">撕拉克</li>
+				<li><img src="images/agile/35.png" alt="med">美杜莎</li>
+				<li><img src="images/agile/36.png" alt="tb">恐怖利刃</li>
+			</ul>
+		</div>
+
+		<div id="power" class="item-menu">
+			<span>力量英雄</span>
+			<ul class="item-menu-m item-menu-2">
+				<li><img src="images/power/1.png" alt="小牛">撼地者</li>
+				<li><img src="images/power/2.jpg" alt="sven">斯温</li>
+				<li><img src="images/power/3.jpg" alt="tiny">小小</li>
+				<li><img src="images/power/4.jpg" alt="coco">昆卡</li>
+				<li><img src="images/power/5.jpg" alt="shouwang">兽王</li>
+				<li><img src="images/power/6.jpg" alt="dk">龙骑士</li>
+				<li><img src="images/power/7.jpg" alt="fatiao">发条技师</li>
+				<li><img src="images/power/8.png" alt="ok">全能骑士</li>
+				<li><img src="images/power/9.jpg" alt="hasika">哈斯卡</li>
+				<li><img src="images/power/10.jpg" alt="lianjin">炼金术士</li>
+				<li><img src="images/power/11.png" alt="jiuxian">酒仙</li>
+				<li><img src="images/power/12.jpg" alt="dashu">树精卫士</li>
+				<li><img src="images/power/13.png" alt="io">精灵守卫</li>
+				<li><img src="images/power/14.png" alt="renma">半人马战行者</li>
+				<li><img src="images/power/15.png" alt="famuji">伐木机</li>
+				<li><img src="images/power/16.png" alt="haimin">巨牙海民</li>
+				<li><img src="images/power/17.png" alt="gangbei">钢背兽</li>
+				<li><img src="images/power/18.png" alt="daniu">上古巨神</li>
+				<li><img src="images/power/19.png" alt="tumao">大地之灵</li>
+				<li><img src="images/power/20.png" alt="juntuan">军团指挥官</li>
+				<li><img src="images/power/21.png" alt="phonix">凤凰</li>
+				<li><img src="images/power/22.jpg" alt="dapigu">孽主</li>
+				<li><img src="images/power/23.jpg" alt="axe">斧王</li>
+				<li><img src="images/power/24.png" alt="tufu">帕吉</li>
+				<li><img src="images/power/25.jpg" alt="sk">沙王</li>
+				<li><img src="images/power/26.jpg" alt="xiaoyu">斯拉达</li>
+				<li><img src="images/power/27.jpg" alt="cx">潮汐猎人</li>
+				<li><img src="images/power/28.jpg" alt="snk">冥魂大帝</li>
+				<li><img src="images/power/29.jpg" alt="xiaogou">噬魂鬼</li>
+				<li><img src="images/power/30.jpg" alt="yemo">暗夜魔王</li>
+				<li><img src="images/power/31.jpg" alt="mori">末日使者</li>
+				<li><img src="images/power/32.jpg" alt="bainiu">裂魂人</li>
+				<li><img src="images/power/33.jpg" alt="langren">狼人</li>
+				<li><img src="images/power/34.png" alt="ck">混沌骑士</li>
+				<li><img src="images/power/35.png" alt="shiwang">不朽尸王</li>
+				<li><img src="images/power/36.png" alt="mengma">马格纳斯</li>
+				<li><img src="images/power/37.jpg" alt="loa">亚巴顿</li>
+			</ul>
+		</div>
+
+		<div id="intelligence" class="item-menu">
+			<span>智力英雄</span>
+			<ul class="item-menu-m item-menu-3">
+				<li><img src="images/intelligence/1.jpg" alt="cm">水晶室女</li>
+				<li><img src="images/intelligence/2.jpg" alt="puck">帕克</li>
+				<li><img src="images/intelligence/3.png" alt="st">风暴之灵</li>
+				<li><img src="images/intelligence/4.png" alt="wr">风行者</li>
+				<li><img src="images/intelligence/5.jpg" alt="zous">宙斯</li>
+				<li><img src="images/intelligence/6.jpg" alt="lina">莉娜</li>
+				<li><img src="images/intelligence/7.jpg" alt="xiaoy">暗影萨满</li>
+				<li><img src="images/intelligence/8.jpg" alt="xiaolu">魅惑魔女</li>
+				<li><img src="images/intelligence/9.jpg" alt="xianzhi">先知</li>
+				<li><img src="images/intelligence/10.jpg" alt="tk">修补匠</li>
+				<li><img src="images/intelligence/11.jpg" alt="shuangtoulong">杰奇洛</li>
+				<li><img src="images/intelligence/12.jpg" alt="chen">陈</li>
+				<li><img src="images/intelligence/13.png" alt="cenmo">沉默术士</li>
+				<li><img src="images/intelligence/14.jpg" alt="">食人魔法师</li>
+				<li><img src="images/intelligence/15.png" alt="rubike">拉比克</li>
+				<li><img src="images/intelligence/16.png" alt="shaer">干扰者</li>
+				<li><img src="images/intelligence/17.png" alt="guangfa">光之守卫</li>
+				<li><img src="images/intelligence/18.png" alt="tianlu">天怒法师</li>
+				<li><img src="images/intelligence/19.png" alt="zhadanren">工程师</li>
+				<li><img src="images/intelligence/20.jpg" alt="shenyu">神谕者</li>
+				<li><img src="images/intelligence/21.jpg" alt="shuimo">祸乱之源</li>
+				<li><img src="images/intelligence/22.jpg" alt="wuyao">巫妖</li>
+				<li><img src="images/intelligence/23.png" alt="lion">莱恩</li>
+				<li><img src="images/intelligence/24.jpg" alt="wuyi">巫医</li>
+				<li><img src="images/intelligence/25.jpg" alt="mituan">谜团</li>
+				<li><img src="images/intelligence/26.jpg" alt="nec">瘟疫法师</li>
+				<li><img src="images/intelligence/27.jpg" alt="shushi">术士</li>
+				<li><img src="images/intelligence/28.jpg" alt="qop">痛苦女王</li>
+				<li><img src="images/intelligence/29.jpg" alt="siwangxianzhi">死亡先知</li>
+				<li><img src="images/intelligence/30.jpg" alt="pugna">帕格纳</li>
+				<li><img src="images/intelligence/31.png" alt="daize">戴泽</li>
+				<li><img src="images/intelligence/32.jpg" alt="laxike">拉希克</li>
+				<li><img src="images/intelligence/33.jpg" alt="tuzi">黑暗贤者</li>
+				<li><img src="images/intelligence/34.jpg" alt="bat">蝙蝠骑士</li>
+				<li><img src="images/intelligence/35.jpg" alt="aa">极寒幽魂</li>
+				<li><img src="images/intelligence/36.jpg" alt="kaer">祈求者</li>
+				<li><img src="images/intelligence/37.jpg" alt="heiniao">殁境毁灭者</li>
+				<li><img src="images/intelligence/38.jpg" alt="dugou">暗影恶魔</li>
+				<li><img src="images/intelligence/39.png" alt="weishaji">维萨吉</li>
+				<li><img src="images/intelligence/40.jpg" alt="binglong">寒冬飞龙</li>
+			</ul>
+		</div>
+		<div id="hide">
+			<span>隐藏</span>
+		</div>
+		<div id="hero-show">
+			<span>所有英雄</span>
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div class="containner">
+			<p>联系我<br><span>450403015@qq.com</span></p>
+			<p>我的博客<a href="http://taisoulx.me">浓浓的牛奶巧克力</a></p>
+			<p>友情链接</p>
+			<p>项目地址</p>
+		</div>
+		
+	</div>
+</body>
+</html>

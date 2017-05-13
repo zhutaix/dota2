@@ -1,0 +1,63 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+a,
+p,
+textarea
+{
+    font-family: 'Helvetaca Neue',Helvetaca,Arial,sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li
+{
+    list-style: none;;
+}
+
+a
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+img
+{
+    display: block;
+
+    border: none;
+}
+
+.clearfloat
+{
+    zoom: 1;
+}
+
+.clearfloat:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: '';
+}

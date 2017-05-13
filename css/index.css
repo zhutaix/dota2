@@ -1,0 +1,478 @@
+html,
+body
+{
+    height: 100%;
+}
+/*轮播图*/
+#wrapper
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+#wrapper #banner-box
+{
+    position: absolute;
+    /*width: 400%;*/
+    /*width: 100%;*/
+
+    height: 500px;
+}
+
+#wrapper #banner-box .item-pic
+{
+    float: left;
+    overflow: hidden;
+
+    width: 16.6666666667%;
+    height: 500px;
+
+    border-radius: 30px;
+}
+
+#wrapper ul li img
+{
+    width: 100%;
+    height: 500px;
+    /*border-radius: 30px;*/
+}
+
+#wrapper .btn
+{
+    font-size: 2.6em;
+    line-height: 40px;
+
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-align: center;
+
+    opacity: .8;
+    /*font-weight: bold;*/
+    color: #fff;
+    border-radius: 50%;
+    background: #4c4545;
+}
+
+#prev
+{
+    top: 50%;
+    left: 10px;
+
+    margin-top: -20px;
+}
+#next
+{
+    top: 50%;
+    right: 10px;
+
+    margin-top: -20px;
+}
+
+#Btn-b
+{
+    position: absolute;
+    bottom: 20px;
+
+    width: 100%;
+
+    text-align: center;
+}
+#Btn-b .item-bt
+{
+    display: inline-block;
+
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    background: #faf8f8;
+}
+#Btn-b .active
+{
+    background: #555;
+}
+
+
+/*头部*/
+#header
+{
+    position: fixed;
+    z-index: 20000;
+    top: 0;
+
+    width: 100%;
+    height: 40px;
+
+    background: #d23d3d;
+    /*border: 1px solid red;*/
+}
+.containner
+{
+    width: 80%;
+    margin: 0 auto;
+}
+#header .containner span
+{
+    font-size: 1.8em;
+    line-height: 40px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+#header .containner p
+{
+    font-size: 1em;
+
+    display: inline-block;
+    display: none;
+
+    width: 80px;
+    margin-left: 120px;
+
+    box-shadow: 1px 1px 2px 2px #301db7;
+}
+#header .head-nav
+{
+    float: right;
+
+    width: 200px;
+    margin-right: 40px;
+
+    color: #fff;
+}
+
+#header .head-nav .item-nav
+{
+    font-size: 1em;
+    line-height: 40px;
+
+    float: left;
+
+    margin-left: 16px;
+
+    text-align: center;
+}
+
+/*登陆*/
+#load
+{
+    position: fixed;
+    z-index: 20000;
+    top: 30%;
+    left: 50%;
+
+    display: none;
+
+    width: 300px;
+    height: 350px;
+    margin-left: -150px;
+
+    border: 1px solid #555;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+#load h2
+{
+    font-family: '宋体';
+    font-size: 1.4em;
+
+    color: #fff;
+    background: #d23d3d;
+}
+#load h2 span
+{
+    font-size: .8em;
+    line-height: 1.4em;
+
+    display: block;
+    float: right;
+
+    width: 12px;
+    height: 12px;
+    margin-right: 18px;
+
+    cursor: pointer;
+}
+#load p
+{
+    width: 200px;
+}
+#load form
+{
+    width: 200px;
+    margin: 40px auto;
+}
+#load p input
+{
+    font-size: 1.2em;
+
+    display: inline-block;
+
+    width: 200px;
+    margin-top: 30px;
+
+    color: #b7afaf;
+}
+input#load-sub
+{
+    display: block;
+
+    width: 200px;
+    height: 2em;
+    margin-top: 20px;
+
+    color: #fff;
+    border: none;
+    background: #3182d1;
+    box-shadow: 0 0 5px 5px #d0caca;
+}
+#load form .load-item3
+{
+    font-size: .8em;
+
+    float: left;
+
+    width: 100px;
+    margin-top: 10px;
+
+    color: #1d0ff9;
+}
+#load a
+{
+    font-size: .9em;
+
+    float: right;
+
+    margin-top: 10px;
+
+    color: #1d0ff9;
+}
+#load a:hover
+{
+    color: #fff;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+#shade
+{
+    position: fixed;
+    z-index: 19999;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: .3;
+    background: #8358cd;
+}
+/*分享到*/
+#share
+{
+    font-size: .8em;
+
+    position: fixed;
+    top: 50%;
+    left: 0;
+
+    width: 80px;
+    height: 180px;
+    margin-top: -90px;
+    margin-left: -80px;
+
+    color: #fff;
+    background: #d23d3d;
+}
+#share .shareTo
+{
+    line-height: 30px;
+
+    position: absolute;
+    top: 60px;
+    right: -20px;
+
+    display: block;
+
+    width: 25px;
+    height: 60px;
+
+    text-align: center;
+
+    color: #050505;
+    border-radius: 5px;
+    background: #d23d3d;
+}
+#share div
+{
+    opacity: 0;
+
+    filter: alpha(opacity='0');
+}
+#share div span
+{
+    display: inline-block;
+
+    width: 100%;
+    /*border: 1px solid #f75050;*/
+
+    background: #f75050;
+}
+#share ul li
+{
+    margin-top: 8px;
+
+    cursor: pointer;
+}
+
+/*英雄列表*/
+#hero-menu
+{
+    position: relative;
+
+    width: 85%;
+
+    border-radius: 8px;
+    /*float: left;*/
+    background: #d23d3d;
+}
+#hero-menu .item-menu
+{
+    float: left;
+
+    width: 30%;
+    margin: 10px auto;
+
+    text-align: center;
+}
+
+#hero-menu .item-menu span
+{
+    font-size: 1.2em;
+
+    cursor: pointer;
+
+    color: #fff;
+}
+.item-menu-m
+{
+    display: none;
+    /*position: absolute;
+	top: 30px;
+	left: 0;*/
+    float: left;
+
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+
+    background: #29a78f;
+}
+
+.item-menu-m li
+{
+    font-size: .8em;
+
+    float: left;
+
+    margin-top: 6px;
+    margin-left: 4px;
+    padding: 2px;
+
+    cursor: pointer;
+
+    color: #270f0f;
+    border-radius: 6px;
+    background: #c38585;
+}
+.item-menu-m img
+{
+    width: 70px;
+    height: 48px;
+}
+#hide
+{
+    line-height: 40px;
+
+    position: absolute;
+    left: -50px;
+
+    display: none;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #fff;
+    border-radius: 50%;
+    background: #d23d3d;
+}
+#hero-show
+{
+    font-size: 1.2em;
+    line-height: 50px;
+
+    position: absolute;
+    right: 50px;
+
+    display: none;
+
+    width: 80px;
+    height: 40px;
+
+    cursor: pointer;
+    /*background: #d23d3d;*/
+    text-align: center;
+
+    color: #220f59;
+    border-radius: 10%;
+}
+
+#footer
+{
+    display: none;
+
+    width: 100%;
+    height: 150px;
+
+    background: #756262;
+}
+#footer p
+{
+    font-size: 1.2em;
+
+    float: left;
+
+    width: 20%;
+    /*line-height: 40px;*/
+    margin-top: 40px;
+    margin-left: 40px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #fff;
+}
+#footer p span
+{
+    font-size: .8em;
+}
+#footer p a
+{
+    font-size: .8em;
+}

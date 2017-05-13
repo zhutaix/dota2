@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>载入</title>
+</head>
+<style>
+	html,body,div,img{
+		padding: 0;
+		margin: 0;
+	}
+	html{
+		height: 100%;
+	}
+	body{
+		min-height: 100%;
+		overflow: hidden;
+		background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+	}
+	div{
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	img{
+		width: 100%;
+		height: 100%;
+	}
+	
+</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+<body>
+	<div id="box">
+		<img src="images/jugg.jpeg" alt="">
+	</div>
+	<script>
+	setTimeout(function(){
+		$("img").one("mousemove",begin);
+	},3000);
+
+
+	function begin(){
+		$("div").animate({"width": "100px", "height": "100px","margin-top":"20%"}, 800,fn);	//20%是按照父级宽度计算的，而不是高度
+	function fn(){
+		$("div").css('border-radius', '50%').children().fadeOut('slow', function() {
+			$("div").css({
+				'background':'#555',
+				'background-image': 'linear-gradient(to right, #434343 0%, black 100%)',
+				'cursor':'pointer'
+			});	
+		});
+		var oSpan=$('<span>开始</span>').css({
+				"font-family": "微软雅黑",
+				"color": "#fff",
+				"font-size":"1.5em",
+				"text-align":"center",
+				"display":"inline-block",
+				"width":"100px",
+				"line-height":"100px"
+			});
+			oSpan.appendTo('div').fadeIn('400');
+			oSpan.click(function() {
+				setTimeout(function(){
+					window.location.href="index.html";
+				},1000);
+				
+			});	
+	}
+	}
+	</script>
+</body>
+</html>

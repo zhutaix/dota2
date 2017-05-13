@@ -1,0 +1,130 @@
+.left-box
+{
+    position: absolute;
+    z-index: 100;
+    left: -50%;
+
+    width: 50%;
+    height: 100%;
+
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.right-box
+{
+    position: absolute;
+    z-index: 100;
+    right: 0;
+
+    width: 50%;
+    height: 100%;
+
+    opacity: 0;
+    background-image: linear-gradient(120deg, #f68084 0%, #a6c0fe 100%);
+}
+.left-box .list-icon
+{
+    position: fixed;
+    z-index: 101;
+    top: 20%;
+    left: 60px;
+
+    width: 48px;
+    height: 48px;
+    /*background-image: url(../images/icon/list.png);*/
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    background: #fceeee;
+    box-shadow: 0 0 6px 10px #f90707;
+}
+#section1 .left-box .item-1{
+	top: 120%;
+}
+#section2 .left-box .item-2{
+	top: 220%;
+}
+#section3 .left-box .item-3{
+	top: 320%;
+}
+.left-box .list-icon img
+{
+    width: 48px;
+    height: 48px;
+}
+.left-box .left-list
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    cursor: pointer;
+}
+.left-box .left-list li
+{
+    font-family: '微软雅黑';
+    font-size: 1.1em;
+
+    margin-top: 20px;
+    /*word-spacing: 2px;*/
+}
+.left-box .left-list li:hover
+{
+    text-shadow: #0b75f9 5px .4em .2em;
+}
+.left-box .left-list li span
+{
+    font-size: 1.1em;
+    line-height: 1.1em;
+
+    margin-left: 14px;
+}
+.features-box
+{
+    position: absolute;
+    z-index: 101;
+    right: -100%;
+    bottom: 0;
+
+    width: 0;
+    height: 100%;
+
+    opacity: 0;
+}
+.features-box .features-item
+{
+    height: 31%;
+    /*margin-top: 0;*/
+    padding: 8px;
+
+    background: #fcf2f2;
+}
+.features-box .features-item:hover
+{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.features-box .features-item h4
+{
+    font-family: '宋体';
+    font-size: 1.3em;
+
+    color: #b3c274;
+    /*font-weight: 200;*/
+}
+.features-box .features-item span
+{
+    font-family: '微软雅黑';
+    font-size: 0.8em;
+    line-height: 2em;
+
+    color: #1421ec;
+}
+.hero-name
+{
+    font-size: 1.6em;
+    line-height: 1.6em;
+
+    padding-top: 40px;
+
+    text-align: center;
+}
