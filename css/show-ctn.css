@@ -1,3 +1,128 @@
+    html,
+body
+{
+    overflow: hidden;
+
+    height: 100%;
+}
+#container,
+.sections,
+.section
+{
+    position: relative;
+
+    height: 100%;
+}
+#section0,
+#section1,
+#section2,
+#section3
+{
+    background-color: #000;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#section0
+{
+    color: #fff;
+    background-image: url(../images/banner/rubik.jpg);
+    text-shadow: 1px 1px 1px #333;
+}
+#section1
+{
+    color: #fff;
+    background-image: url(../images/banner/sven.jpeg);
+    text-shadow: 1px 1px 1px #333;
+}
+#section2
+{
+    color: #fff;
+    background-image: url(../images/banner/mippo.jpg);
+    text-shadow: 1px 1px 1px #666;
+}
+#section3
+{
+    color: #008283;
+    background-image: url(../images/banner/xiaoniu.jpeg);
+    text-shadow: 1px 1px 1px #fff;
+}
+.section p
+{
+    color: #f1ff00;
+}
+#section3 p
+{
+    color: #00a3af;
+}
+.left
+{
+    float: left;
+}
+h1
+{
+    font-size: 6em;
+    font-weight: normal;
+}
+p
+{
+    font-size: 2em;
+
+    padding: .5em 0 2em 0;
+}
+.intro
+{
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+}
+.pages
+{
+    position: fixed;
+
+    list-style: none;
+}
+.vertical.pages
+{
+    top: 50%;
+    right: 10px;
+}
+.horizontal.pages
+{
+    bottom: 10px;
+    left: 50%;
+}
+.pages li
+{
+    width: 8px;
+    height: 8px;
+    margin: 10px 5px;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    background: #fff;
+}
+.horizontal.pages li
+{
+    display: inline-block;
+
+    vertical-align: middle;
+}
+.pages li.active
+{
+    width: 14px;
+    height: 14px;
+    margin-left: 0;
+
+    border: 2px solid #fffe00;
+    background: none;
+}
+
 .left-box
 {
     position: absolute;
