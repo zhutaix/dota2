@@ -1,14 +1,15 @@
 $(function(){
+	
 	$(".list-icon").click(function(){
 		if($(".right-box").css('opacity') === "0"){
 			boxShow();
-		}else if($(".features-box").css("opacity") !=="0"){
+		}else if($(".features-box").css("opacity") =="0.9"){
+			setTimeout(boxClose,500);
 			ftClose();
-			boxClose();
-		}else{
+		}else if($(".features-box").css("opacity") =="0"){
 			boxClose();
 		}
-		
+		return false;
 	});
 
 	function boxShow(){
