@@ -1,0 +1,17 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+ #container{
+ 	margin:0 auto;
+ 	width: 100%;
+ }
+ .item{
+	margin: 0 auto;
+	padding: 0 auto;
+ }
+ .item img{
+ 	width: 100%;
+ 	margin: -2px auto;
+	padding: 0 auto;
+ }
